@@ -1,3 +1,9 @@
+libsdl1.2 (1.2.15-12) UNRELEASED; urgency=medium
+
+  * Remove Barry deFreese from uploaders
+
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Mon, 27 Apr 2015 22:48:34 +0100
+
 libsdl1.2 (1.2.15-11) unstable; urgency=medium
 
   * Bump Policy Standards-Version to 3.9.6 (no changes needed)
