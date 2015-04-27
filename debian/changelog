@@ -1,4 +1,4 @@
-libsdl1.2 (1.2.15-11) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15-11) unstable; urgency=medium
 
   * Bump Policy Standards-Version to 3.9.6 (no changes needed)
   * Change for reproducible builds: use "--owner=0 --group=0" when
@@ -6,7 +6,7 @@ libsdl1.2 (1.2.15-11) UNRELEASED; urgency=medium
     and rest of the Reproducible Builds team for the analysis and patch
     suggested.
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Mon, 27 Apr 2015 22:26:25 +0100
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Mon, 27 Apr 2015 22:35:22 +0100
 
 libsdl1.2 (1.2.15-10) unstable; urgency=medium
 
