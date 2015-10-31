@@ -1,10 +1,10 @@
-libsdl1.2 (1.2.15-12) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15-12) unstable; urgency=medium
 
   * Change to improve build reproducibility: tar file permission modes.
     Thanks Reiner Herrmann. (Closes: #803579)
   * Remove Barry deFreese from uploaders
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Mon, 27 Apr 2015 22:48:34 +0100
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 01 Nov 2015 00:07:00 +0000
 
 libsdl1.2 (1.2.15-11) unstable; urgency=medium
 
