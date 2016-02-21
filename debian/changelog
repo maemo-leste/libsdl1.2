@@ -5,6 +5,7 @@ libsdl1.2 (1.2.15+dfsg1-1) UNRELEASED; urgency=medium
     get in contact with the original author, the original author for
     prompt relicencing.
     - d/patches/replace-relicenced-SDL_qsort.patch
+  * Bump Policy Standards-Version to 3.9.7 (no changes needed)
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 14:57:07 +0000
 
