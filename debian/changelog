@@ -1,4 +1,4 @@
-libsdl1.2 (1.2.15+dfsg1-1) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15+dfsg1-1) unstable; urgency=medium
 
   * New upstream release
     - Repack without SDL_qsort.c due to licence problem
@@ -11,7 +11,7 @@ libsdl1.2 (1.2.15+dfsg1-1) UNRELEASED; urgency=medium
   * Set -dev package as "Multi-Arch: no" (quells lintian error:
     old-style-config-script-multiarch-path)
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 14:57:07 +0000
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 16:00:03 +0000
 
 libsdl1.2 (1.2.15-12) unstable; urgency=medium
 
