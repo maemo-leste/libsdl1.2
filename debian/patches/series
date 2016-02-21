@@ -1,3 +1,4 @@
+replace-relicenced-SDL_qsort.patch
 x11_keytounicode.diff
 dont_propagate_lpthread.diff
 fix_build_joystick_freebsd.diff

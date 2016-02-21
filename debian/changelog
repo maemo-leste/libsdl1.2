@@ -4,6 +4,7 @@ libsdl1.2 (1.2.15+dfsg1-1) UNRELEASED; urgency=medium
     Thanks the anonymous reporter, Ben Hutchings for looking into it and
     get in contact with the original author, the original author for
     prompt relicencing.
+    - d/patches/replace-relicenced-SDL_qsort.patch
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 14:57:07 +0000
 
