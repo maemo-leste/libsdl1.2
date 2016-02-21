@@ -10,6 +10,7 @@ libsdl1.2 (1.2.15+dfsg1-1) unstable; urgency=medium
   * Bump Policy Standards-Version to 3.9.7 (no changes needed)
   * Set -dev package as "Multi-Arch: no" (quells lintian error:
     old-style-config-script-multiarch-path)
+  * d/watch: Add dfsg and pgpsig mangling
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 16:00:03 +0000
 
