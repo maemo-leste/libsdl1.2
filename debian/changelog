@@ -4,8 +4,8 @@ libsdl1.2 (1.2.15+dfsg1-1) unstable; urgency=medium
     - Repack without SDL_qsort.c due to licence problem
   * Use newer relicenced version for SDL_qsort.c (Closes: #814445)
     Thanks the anonymous reporter, Ben Hutchings for looking into it and
-    get in contact with the original author, the original author for
-    prompt relicencing.
+    get in contact with the original author, the original author Gareth
+    McCaughan for prompt relicencing.
     - d/patches/replace-relicenced-SDL_qsort.patch
   * Bump Policy Standards-Version to 3.9.7 (no changes needed)
   * Set -dev package as "Multi-Arch: no" (quells lintian error:
