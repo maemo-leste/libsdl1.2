@@ -11,6 +11,8 @@ libsdl1.2 (1.2.15+dfsg1-1) unstable; urgency=medium
   * Set -dev package as "Multi-Arch: no" (quells lintian error:
     old-style-config-script-multiarch-path)
   * d/watch: Add dfsg and pgpsig mangling
+  * d/upstream/signing-key.asc: Import upstream gpg key for uscan to
+    verify the orig tarball
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 16:00:03 +0000
 
