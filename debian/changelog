@@ -1,5 +1,7 @@
 libsdl1.2 (1.2.15+dfsg1-1) UNRELEASED; urgency=medium
 
+  * New upstream release
+    - Repack without SDL_qsort.c due to licence problem
   * Use newer relicenced version for SDL_qsort.c (Closes: #814445)
     Thanks the anonymous reporter, Ben Hutchings for looking into it and
     get in contact with the original author, the original author for
