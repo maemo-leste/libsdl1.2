@@ -1,3 +1,11 @@
+libsdl1.2 (1.2.15+dfsg1-2) UNRELEASED; urgency=medium
+
+  * d/control: remove "Multi-Arch: no" from -dev package, despite what
+    lintian says there's an error processing the field (#768353) and the
+    package got rejected
+
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sun, 21 Feb 2016 17:43:50 +0000
+
 libsdl1.2 (1.2.15+dfsg1-1) unstable; urgency=medium
 
   * New upstream release

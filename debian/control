@@ -57,7 +57,6 @@ Description: Simple DirectMedia Layer
 
 Package: libsdl1.2-dev
 Architecture: any
-Multi-Arch: no
 Section: libdevel
 Depends: ${misc:Depends},
          libsdl1.2debian (= ${binary:Version}),
