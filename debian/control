@@ -19,7 +19,6 @@ Build-Depends: debhelper (>= 9),
                libgl1-mesa-dev,
                libasound2-dev [linux-any],
                libcaca-dev,
-               libdirectfb-dev (>= 1.0) [!hurd-i386],
                libusbhid-dev [kfreebsd-any],
                libglu1-mesa-dev
 Vcs-Git: git://anonscm.debian.org/pkg-sdl/packages/libsdl1.2.git
@@ -49,11 +48,11 @@ Conflicts: libsdl1.2debian-all,
            libsdl1.2-nas,
            libsdl1.2
 Description: Simple DirectMedia Layer
- SDL is a library that allows programs portable low level access to
- a video framebuffer, audio output, mouse, and keyboard.
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
  .
- This version of SDL is compiled with X11, caca and DirectFB graphics 
- drivers and OSS, ALSA, NAS and PulseAudio sound drivers.
+ This version of SDL is compiled with X11 and caca graphics drivers and OSS,
+ ALSA, NAS and PulseAudio sound drivers.
 
 Package: libsdl1.2-dev
 Architecture: any
@@ -62,7 +61,6 @@ Depends: ${misc:Depends},
          libsdl1.2debian (= ${binary:Version}),
          libasound2-dev [linux-any],
          libcaca-dev,
-         libdirectfb-dev (>= 0.9.22),
          libglu1-mesa-dev | libglu-dev,
          libpulse-dev,
          libusbhid-dev [kfreebsd-any],

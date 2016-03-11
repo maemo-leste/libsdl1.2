@@ -1,3 +1,9 @@
+libsdl1.2 (1.2.15+dfsg1-3) UNRELEASED; urgency=medium
+
+  * Disable suppot for DirectFB (Closes: #816125)
+
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Fri, 11 Mar 2016 23:45:17 +0000
+
 libsdl1.2 (1.2.15+dfsg1-2) unstable; urgency=medium
 
   * d/control: remove "Multi-Arch: no" from -dev package, despite what

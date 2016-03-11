@@ -9,7 +9,7 @@ confflags = --disable-rpath --enable-sdl-dlopen --disable-loadso \
             --disable-nas --disable-esd --disable-arts \
             --disable-alsa-shared --disable-pulseaudio-shared \
             --disable-x11-shared \
-            --enable-video-directfb --enable-video-caca
+            --enable-video-caca
 
 # Only use NASM routines on x86 CPUs
 ifeq ($(DEB_HOST_ARCH_CPU),i386)
