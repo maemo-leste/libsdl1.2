@@ -1,4 +1,4 @@
-libsdl1.2 (1.2.15+dfsg1-3) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15+dfsg1-3) unstable; urgency=medium
 
   * Disable suppot for DirectFB (Closes: #816125)
   * d/control: Update Vcs-* URLs, use https
@@ -7,7 +7,7 @@ libsdl1.2 (1.2.15+dfsg1-3) UNRELEASED; urgency=medium
     - timestamps_in_gzip_headers, export GZIP="-9n"
   * Drop -dbg package
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Fri, 11 Mar 2016 23:45:17 +0000
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sat, 12 Mar 2016 00:36:47 +0000
 
 libsdl1.2 (1.2.15+dfsg1-2) unstable; urgency=medium
 
