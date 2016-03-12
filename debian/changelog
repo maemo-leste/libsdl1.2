@@ -5,6 +5,7 @@ libsdl1.2 (1.2.15+dfsg1-3) UNRELEASED; urgency=medium
   * Fixes for reproducible builds:
     - timestamps_in_tarball, use --clamp-mtime with changelog as date
     - timestamps_in_gzip_headers, export GZIP="-9n"
+  * Drop -dbg package
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Fri, 11 Mar 2016 23:45:17 +0000
 
