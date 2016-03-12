@@ -23,6 +23,10 @@ ifneq (,$(findstring $(DEB_HOST_ARCH_CPU),powerpc ppc64))
 endif
 
 
+# for reproducible builds, timestamps_in_tarball
+SOURCE_DATE := $(shell dpkg-parsechangelog --show-field=Date)
+
+
 %:
 	dh $@ --with autoreconf --parallel
 
@@ -58,7 +62,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	dh_auto_build
-	tar czf debian/examples.tar.gz test --owner=0 --group=0 --mode=go=rX,u+rw,a-s
+	tar --clamp-mtime --mtime="$(SOURCE_DATE)" czf debian/examples.tar.gz test --owner=0 --group=0 --mode=go=rX,u+rw,a-s
 
 override_dh_auto_clean:
 	dh_auto_clean

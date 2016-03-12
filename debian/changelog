@@ -2,6 +2,7 @@ libsdl1.2 (1.2.15+dfsg1-3) UNRELEASED; urgency=medium
 
   * Disable suppot for DirectFB (Closes: #816125)
   * d/control: Update Vcs-* URLs, use https
+  * Fix for reproducible builds: timestamps_in_tarball
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Fri, 11 Mar 2016 23:45:17 +0000
 
