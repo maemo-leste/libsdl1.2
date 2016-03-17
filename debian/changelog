@@ -1,11 +1,14 @@
-libsdl1.2 (1.2.15+dfsg1-4) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15+dfsg1-4) unstable; urgency=high
 
-  * Ensure proper migration from -dbg package using "dh_strip --dbgsym-migration"
+  * Urgency "high" to fix problems with migration of -dbg package.  Thanks
+    Yann Dirson.
+  * Ensure proper migration from -dbg package using "dh_strip
+    --dbgsym-migration"
   * Bump debhelper dependency for --dbgsym-migration
   * Fix for reproducible builds:
     - sort files by name when creating "examples.tar.gz"
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Thu, 17 Mar 2016 11:49:09 +0000
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Thu, 17 Mar 2016 12:15:31 +0000
 
 libsdl1.2 (1.2.15+dfsg1-3) unstable; urgency=medium
 
