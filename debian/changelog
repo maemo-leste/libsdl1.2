@@ -1,3 +1,9 @@
+libsdl1.2 (1.2.15+dfsg1-5) UNRELEASED; urgency=medium
+
+  * Do not build-depend on libaudiofile, unused (Closes: #857670)
+
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Mon, 20 Mar 2017 23:39:58 +0100
+
 libsdl1.2 (1.2.15+dfsg1-4) unstable; urgency=high
 
   * Urgency "high" to fix problems with migration of -dbg package.  Thanks
