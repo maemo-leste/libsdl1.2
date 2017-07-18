@@ -1,8 +1,31 @@
-libsdl1.2 (1.2.15+dfsg1-5) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15+dfsg2-0.1) unstable; urgency=medium
 
-  * Do not build-depend on libaudiofile, unused (Closes: #857670)
+  * Non-maintainer upload.
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Mon, 20 Mar 2017 23:39:58 +0100
+  [ Manuel A. Fernandez Montecelo ]
+  * Do not build-depend on libaudiofile, unused.
+    Closes: #857670
+
+  [ Jonas Smedegaard ]
+  * Add script to check copyright and licensing of source.
+  * Update copyright info:
+    + Rewrite copyright file in machine-readable format.
+    + Fix cover many secondary copyright holders and licenses.
+  * Repackage upstream source to exclude more potentially non-DFSG code,
+    and add patch to avoid missing code.
+    Closes: Bug#834204.
+  * Update watch file:
+    + Bump to version 4.
+    + Add usage comment.
+    + Set repacksuffix.
+  * Drop repackaging hints from git-buildpackage config: Handled by
+    uscan + machine-readable copyright file.
+  * Add lintian overrides regarding license in License-Reference field.
+    See bug#786450.
+  * Add lintian overrides regarding license name used both alone an in
+    composition.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 18 Jul 2017 13:46:21 +0200
 
 libsdl1.2 (1.2.15+dfsg1-4) unstable; urgency=high
 
