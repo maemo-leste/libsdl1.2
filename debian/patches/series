@@ -6,3 +6,4 @@ fix_window_resizing.diff
 fix_joystick_misc_axes.diff
 sdl-check-for-SDL_VIDEO_X11_BACKINGSTORE.patch
 avoid_maybe_non-DFSG_file.patch
+SDL-1.2.15-vec_perm-ppc64le.patch
