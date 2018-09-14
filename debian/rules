@@ -4,7 +4,7 @@ SHLIBVER = 1.2.11
 
 DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 
-confflags = --disable-rpath --enable-sdl-dlopen --disable-loadso \
+confflags = --disable-rpath --enable-sdl-dlopen \
             --disable-video-ggi --disable-video-svga --disable-video-aalib \
             --disable-nas --disable-esd --disable-arts \
             --disable-alsa-shared --disable-pulseaudio-shared \

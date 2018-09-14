@@ -1,3 +1,14 @@
+libsdl1.2 (1.2.15+dfsg2-2) unstable; urgency=medium
+
+  [ Gianfranco Costamagna ]
+  * Team upload
+
+  [ Ryan C. Gordon (icculus) ]
+  * Disable --disable-loadso switch, it was useless and it is wrong
+    in many cases (see LP: #1740517 for discussion)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 14 Sep 2018 19:52:34 +0200
+
 libsdl1.2 (1.2.15+dfsg2-1) unstable; urgency=medium
 
   * Team upload
