@@ -4,6 +4,7 @@ libsdl1.2 (1.2.15+dfsg2-3) UNRELEASED; urgency=medium
   * d/control
     - Use https in Homepage URL
     - Set "Rules-Requires-Root: no"
+    - Drop ancient build-dependency on "dpkg-dev (>= 1.16.1~)"
   * d/watch: use https in URL
   * d/copyright: use https in Format, Source and Upstream-Contact URLs
   * Switch to debhelper compat level v11
