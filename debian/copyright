@@ -1,7 +1,7 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Simple DirectMedia Layer
-Upstream-Contact: http://bugzilla.libsdl.org/
-Source: http://www.libsdl.org/download-1.2.php
+Upstream-Contact: https://bugzilla.libsdl.org/
+Source: https://www.libsdl.org/download-1.2.php
  Repackaged, excluding potentially non-DFSG files.
 Files-Excluded:
  Borland.zip
