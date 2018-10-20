@@ -1,4 +1,4 @@
-libsdl1.2 (1.2.15+dfsg2-3) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15+dfsg2-3) unstable; urgency=medium
 
   * Bump Policy Standards-Version to 4.2.1 (no changes needed)
   * d/control
@@ -19,7 +19,7 @@ libsdl1.2 (1.2.15+dfsg2-3) UNRELEASED; urgency=medium
     - dh_install --fail-missing is deprecated and about to be removed,
       use dh_missing instead
 
- -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sat, 20 Oct 2018 13:40:14 +0200
+ -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sat, 20 Oct 2018 14:25:59 +0200
 
 libsdl1.2 (1.2.15+dfsg2-2) unstable; urgency=medium
 
