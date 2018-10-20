@@ -5,6 +5,7 @@ Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.de
 Uploaders: Felix Geyer <fgeyer@debian.org>,
            Manuel A. Fernandez Montecelo <mafm@debian.org>
 Standards-Version: 4.2.1
+Rules-Requires-Root: no
 Build-Depends: debhelper (>= 9.20160114),
                dh-autoreconf,
                dpkg-dev (>= 1.16.1~),
