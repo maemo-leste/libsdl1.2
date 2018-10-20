@@ -25,7 +25,7 @@ endif
 
 
 %:
-	dh $@ --with autoreconf --parallel
+	dh $@
 
 override_dh_autoreconf:
         # aclocal needs to include in specific order, and/or it seems that
