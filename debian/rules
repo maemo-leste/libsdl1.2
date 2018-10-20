@@ -1,8 +1,9 @@
 #!/usr/bin/make -f
 
-SHLIBVER = 1.2.11
+include /usr/share/dpkg/architecture.mk
+include /usr/share/dpkg/pkg-info.mk
 
-DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
+SHLIBVER = 1.2.11
 
 confflags = --disable-rpath --enable-sdl-dlopen \
             --disable-video-ggi --disable-video-svga --disable-video-aalib \
@@ -21,10 +22,6 @@ ifneq (,$(findstring $(DEB_HOST_ARCH_CPU),powerpc ppc64))
 	confflags += --enable-video-ps3=no \
 	             --disable-altivec
 endif
-
-
-# for reproducible builds, timestamps_in_tarball
-SOURCE_DATE := $(shell dpkg-parsechangelog --show-field=Date)
 
 
 %:
@@ -62,7 +59,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	dh_auto_build
-	GZIP="-9n" tar czf debian/examples.tar.gz test --owner=0 --group=0 --mode=go=rX,u+rw,a-s --clamp-mtime --mtime="$(SOURCE_DATE)" --sort=name
+	GZIP="-9n" tar czf debian/examples.tar.gz test --owner=0 --group=0 --mode=go=rX,u+rw,a-s --clamp-mtime --mtime="$(SOURCE_DATE_EPOCH)" --sort=name
 
 override_dh_auto_clean:
 	dh_auto_clean

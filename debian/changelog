@@ -6,6 +6,9 @@ libsdl1.2 (1.2.15+dfsg2-3) UNRELEASED; urgency=medium
     - Set "Rules-Requires-Root: no"
   * d/watch: use https in URL
   * d/copyright: use https in Format, Source and Upstream-Contact URLs
+  * d/rules: include /usr/share/dpkg/architecture.mk and .../pkg-info.mk
+    to provide DEB_HOST_* and SOURCE_DATE_EPOCH, instead of getting them
+    through shell invocations.
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sat, 20 Oct 2018 13:40:14 +0200
 
