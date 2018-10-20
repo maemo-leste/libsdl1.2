@@ -9,6 +9,8 @@ libsdl1.2 (1.2.15+dfsg2-3) UNRELEASED; urgency=medium
   * d/rules: include /usr/share/dpkg/architecture.mk and .../pkg-info.mk
     to provide DEB_HOST_* and SOURCE_DATE_EPOCH, instead of getting them
     through shell invocations.
+  * Switch to debhelper compat level v11
+    - Drop override of dh_installexamples, unnecessary
 
  -- Manuel A. Fernandez Montecelo <mafm@debian.org>  Sat, 20 Oct 2018 13:40:14 +0200
 

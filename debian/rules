@@ -71,10 +71,6 @@ override_dh_install:
 override_dh_installdocs:
 	dh_installdocs -Xdocs/man3/SDL
 
-override_dh_installexamples:
-	dh_installexamples -plibsdl1.2-dev debian/examples.tar.gz
-	dh_installexamples --remaining-packages
-
 override_dh_makeshlibs:
 	dh_makeshlibs -V"libsdl1.2debian (>= $(SHLIBVER))"
 
