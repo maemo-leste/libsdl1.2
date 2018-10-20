@@ -7,7 +7,8 @@ libsdl1.2 (1.2.15+dfsg2-3) UNRELEASED; urgency=medium
   * d/watch: use https in URL
   * d/copyright: use https in Format, Source and Upstream-Contact URLs
   * Switch to debhelper compat level v11
-    - Drop override of dh_installexamples, unnecessary
+    - Drop override of dh_installexamples and instead use file
+      debian/libsdl1.2-dev.examples
   * d/rules:
     - include /usr/share/dpkg/architecture.mk and .../pkg-info.mk to
       provide DEB_HOST_* and SOURCE_DATE_EPOCH, instead of getting them
