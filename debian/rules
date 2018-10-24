@@ -59,7 +59,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	dh_auto_build
-	GZIP="-9n" tar czf debian/examples.tar.gz test --owner=0 --group=0 --mode=go=rX,u+rw,a-s --clamp-mtime --mtime="$(SOURCE_DATE_EPOCH)" --sort=name
+	GZIP="-9n" tar czf debian/examples.tar.gz test --owner=0 --group=0 --mode=go=rX,u+rw,a-s --clamp-mtime --mtime="@$(SOURCE_DATE_EPOCH)" --sort=name
 
 override_dh_auto_clean:
 	dh_auto_clean
