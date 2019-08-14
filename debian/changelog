@@ -1,3 +1,12 @@
+libsdl1.2 (1.2.15+dfsg2-5) UNRELEASED; urgency=medium
+
+  [ Abhijith PA ]
+  * Fix CVE-2019-7572, CVE-2019-7573, CVE-2019-7574, CVE-2019-7575
+    CVE-2019-7576, CVE-2019-7577, CVE-2019-7578, CVE-2019-7635, CVE-2019-7636
+    CVE-2019-7637, CVE-2019-7638
+
+ -- Felix Geyer <fgeyer@debian.org>  Wed, 14 Aug 2019 18:37:29 +0200
+
 libsdl1.2 (1.2.15+dfsg2-4) unstable; urgency=medium
 
   * d/rules: Add @ in 'tar --mtime="@$(SOURCE_DATE_EPOCH)"', otherwise the

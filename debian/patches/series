@@ -7,3 +7,10 @@ fix_joystick_misc_axes.diff
 sdl-check-for-SDL_VIDEO_X11_BACKINGSTORE.patch
 avoid_maybe_non-DFSG_file.patch
 SDL-1.2.15-vec_perm-ppc64le.patch
+CVE-2019-7572_CVE-2019-7574.patch
+CVE-2019-7573.patch
+CVE-2019-7575_7577.patch
+CVE-2019-7578.patch
+CVE-2019-7635_636_638.patch
+CVE-2019-7637.patch
+CVE-2019-7577-1_2.patch
