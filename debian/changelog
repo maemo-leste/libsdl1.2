@@ -1,4 +1,4 @@
-libsdl1.2 (1:1.2.15) unstable; urgency=medium
+libsdl1.2 (1:1.2.15-7) unstable; urgency=medium
 
   * Add rebased Maemo Fremantle patches.
 
