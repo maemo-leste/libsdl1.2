@@ -16,3 +16,9 @@ CVE-2019-7637.patch
 CVE-2019-7637-2.patch
 CVE-2019-7577-1_2.patch
 CVE-2019-13616.patch
+310_fix_marbles.diff
+310_no_fullscreen_wm_window.diff
+320_no_fullscreen_grab.diff
+330_pulseaudio_tease.diff
+340_fs_notor.diff
+350_nc_friendship.diff
