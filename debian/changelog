@@ -1,7 +1,11 @@
 libsdl1.2 (1.2.15+dfsg2-6) UNRELEASED; urgency=medium
 
+  [ Debian Janitor ]
   * Trim trailing whitespace.
   * Re-export upstream signing key without extra signatures.
+
+  [ Maximilian Engelhardt ]
+  * SDL_x11events.c: properly handle input focus events (Closes: #980253)
 
  -- Debian Janitor <janitor@jelmer.uk>  Thu, 24 Oct 2019 09:14:10 +0000
 

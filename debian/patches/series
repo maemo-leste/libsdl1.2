@@ -16,3 +16,4 @@ CVE-2019-7637.patch
 CVE-2019-7637-2.patch
 CVE-2019-7577-1_2.patch
 CVE-2019-13616.patch
+properly_handle_focus_events.patch
