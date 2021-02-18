@@ -1,4 +1,6 @@
-libsdl1.2 (1.2.15+dfsg2-6) UNRELEASED; urgency=medium
+libsdl1.2 (1.2.15+dfsg2-6) unstable; urgency=medium
+
+  * Team upload.
 
   [ Debian Janitor ]
   * Trim trailing whitespace.
@@ -7,7 +9,7 @@ libsdl1.2 (1.2.15+dfsg2-6) UNRELEASED; urgency=medium
   [ Maximilian Engelhardt ]
   * SDL_x11events.c: properly handle input focus events (Closes: #980253)
 
- -- Debian Janitor <janitor@jelmer.uk>  Thu, 24 Oct 2019 09:14:10 +0000
+ -- Fabian Greffrath <fabian@debian.org>  Thu, 18 Feb 2021 08:52:57 +0100
 
 libsdl1.2 (1.2.15+dfsg2-5) unstable; urgency=medium
 
